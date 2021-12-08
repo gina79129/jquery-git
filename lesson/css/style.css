@@ -1,3 +1,32 @@
+/* index.html */
 .textRed{
     color:#FF0000;
+}
+
+/* index_show.html */
+.show,.fadein,.fadein1000,.fadeincss,.fadeincss1000{
+    display:none;
+}
+
+#dlbox{
+    width:200px;
+    height:100px;
+}
+
+#dtpa{
+    background-color:aquamarine;
+    cursor: pointer;
+}
+
+#ddchi{
+    margin:auto;
+    background-color: azure;
+}
+
+#anmo{
+    width:40px;
+    height:40px;
+    background-color: chartreuse;
+    position: absolute;
+    left:0;
 }
