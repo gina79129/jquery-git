@@ -1,3 +1,12 @@
+/**
+ * show()             顯示
+ * hide()             隱藏
+ * fadeIn()           淡入效果
+ * fadeOut()          淡出效果
+ * slideToggle()      元素展開/收起
+ * animate()          以動畫顯示
+ * stop()             停止動畫顯示 
+ */
 $(function(){
     $("#mombtn").click(function(){
 
