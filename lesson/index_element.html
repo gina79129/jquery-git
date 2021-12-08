@@ -1,0 +1,35 @@
+<!-- 
+    children()       取得子元素
+    parent()         取得父元素
+    each()           對元素進行處理
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>element</title>
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/style.css">
+     <!-- 瀏覽器基本是由上往下讀取程式碼，因此，必須先載入jQuery函式庫，才能讓用到jQuery的敘述正確執行 -->
+     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+     <script src="js/script5.js"></script>
+ </head>
+ <body>
+     <button>Click</button>
+    <div id="child">Parent
+        <p>Child1</p>
+        <span>Child2</span>
+    </div>
+    <div>
+        Parent
+        <p id="parent">Child</p>
+    </div>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+ </body>
+ </html>
