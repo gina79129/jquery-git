@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* index.html */
 .textRed{
     color:#FF0000;
@@ -29,4 +30,71 @@
     background-color: chartreuse;
     position: absolute;
     left:0;
+}
+
+/* index_toggleMenu.html */
+#togbody{
+	font-family:Arial, sans-serif;
+	-webkit-font-smoothing:antialiased;
+    background-color: turquoise;
+    margin:0;
+}
+
+#headimg h1{
+	padding:20px 25px;
+    margin-top:20px;
+	color:#FFF;
+	background:turquoise;
+	font-weight:bold;
+}
+
+#showimg{
+	position:absolute;
+	top:17px;
+	right:25px;
+	background-color:turquoise;
+	border:none;
+	cursor:pointer;
+}
+
+#showimg:focus{
+	outline:none;
+}
+
+#ulimg{
+	display:none;
+	list-style-type:none;
+    padding:0;
+}
+
+#ulimg li a:hover{
+    color:darkorange;
+    font-weight: bolder;
+    background-color: rgb(198, 241, 237);
+}
+
+
+#ulimg li a{
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	padding:17px 25px;
+	color:#FFF;
+	background:rgb(151, 238, 229);
+	border-bottom:1px solid white;
+}
+
+#ulimg li:last-child a{
+    border-bottom:1px solid white;
+}
+
+main{
+	display:block;
+	padding:10px 20px 20px;
+	color:black;
+}
+
+.content{
+    margin-bottom:50px;
+    line-height:2em;
 }
