@@ -225,3 +225,63 @@ main{
     font-weight: bolder;
     color:slateblue;
 }
+
+/* index_DropdownMenu.html */
+#navbody{
+    margin:0 5%;
+    background-color: rgb(241, 187, 50);
+}
+
+#drnav{
+    margin-left:20px;
+    width:90vw;
+    position: absolute;
+}
+
+.navh1{
+    color:rgb(241, 187, 50);
+    background-color: dimgray;
+    margin:0;
+    padding:40px 0;
+    font-size: 50px;
+    float:left;
+    width:86.25vw;
+    display: block;
+
+}
+#navi ul{
+    display: none;
+    position: absolute;
+    width: 250px;
+    left:-0.1px;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+#navi li{
+    list-style-type: none;
+    float:left;
+    left:-40px;
+    padding: 10px;
+    width:20vw;
+    position: relative; 
+
+    text-align: center;
+    background-color: rgb(61, 58, 58);
+}
+
+#navi a{
+    text-decoration: none;
+    color:rgb(241, 187, 50);
+}
+
+#navi ul li:hover{
+    border-bottom:1px solid white;
+    color:white;
+    
+}
+
+#navi ul li a:hover{
+    color:white;
+}
