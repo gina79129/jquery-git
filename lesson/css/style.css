@@ -186,3 +186,42 @@ main{
 #viimg li{
     display:inline-block;
 }
+
+/* index_tab.html */
+#tab1,#tab2,#tab3,#tab4{
+    width:90%;
+    margin:auto;
+    line-height: 40px;
+}
+
+#tabul li{  
+    float:left;
+    margin-right:1px;
+    list-style-type: none;
+    border-bottom:1px solid slateblue;
+    border-top:1px solid slateblue;
+    border-right:1px solid slateblue;
+    border-left:1px solid slateblue;
+    padding: 2px 7px;
+    background-color: rgb(168, 159, 231);
+}
+
+#tabul li a{
+    text-decoration: none;
+}
+
+#contents{
+    min-height:90vh;
+    margin-left:25px;
+    margin-right:25px;
+    z-index: -1;
+    position: relative;
+    top:-1px;
+    float:left;
+    background-color: rgb(168, 159, 231);
+    border:1px solid slateblue;
+}
+.current{
+    font-weight: bolder;
+    color:slateblue;
+}
