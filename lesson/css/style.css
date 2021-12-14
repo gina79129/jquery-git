@@ -338,3 +338,53 @@ main{
     padding:500px 50px 0 50px;
 }
 
+/* index_LightBox.html */
+#lightbody{
+    width:100%;
+    height:100%;
+    /* border:1px solid blueviolet; */
+    color:rgb(37, 154, 201);
+    text-shadow: 2px 2px 2px rgba(0,0,0,.3);
+    margin:0;
+    padding:0;
+    background-color: rgb(171, 204, 218);
+}
+
+#lightdiv{
+    text-align:center;
+    margin-top:70px;
+}
+
+#lightdiv li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left:10px;
+}
+
+#lightdiv img{
+    width:150px;
+    height:80px;
+}
+.lightspan{
+    font-size: 100px;
+}
+
+#lightbg{
+    position: fixed;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#lightphoto{
+    position: absolute;
+    top:15%;
+    left:25%;
+    right:0;
+    bottom:0;
+    width:640px;
+    height:420px;
+}
+
